@@ -19,4 +19,4 @@
 
 10) The content type of the file was application/json
 
-11) The method fetchData() inside of part2.json was used to make the request.
+11) The method fetch() inside of part2.json was used to make the request.
