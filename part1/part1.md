@@ -95,4 +95,12 @@
 
 15) The == operators will just try to see if the values, regardless of data type, are the same. In order to do this, it might convert the values to similar data types in order to compare. The === operator on the other hand checks if the objects are strictly equal to one another data type and all. This means that if the data types are different, it will always return false.
 
-16)
+16) See file.
+
+17) The function will return an array that contains the doubled values of the passed in array meaning the result will be: [2, 4, 6].
+   > The function defined in the first block of code takes in parameters that specify an original array as well as the function that will be used on the array. Then, in the first line, the function will create a new empty array that will be used to store the new values generated from the old array. In the for loop, the block of code will iterate through all items within the passed array and pass the value in the array through the passed function. After the array value is processed, the new value will be added to the new array then returned at the end. In this case, the function passed, acts to multiply the value of the array element by 2 meaning that the returned array will contain values equal to two times the values of the original array values.
+
+18) See file.
+
+19) This will print the values: 1 4 3 2.
+   > In the function, the print statement for the values of 1 and 4 are placed on their own while the print statement for the values of 2 and 3 are placed within setTimeout blocks. This means that when the function is called, it will immediately run the code for printing 1 and 4, in that order because that is the order it is defined, then it will procede to run the print statements within the setTimeout blocks. The print statement for the value 3 will run immediately at this point because the delay set by the function is set to 0 meaning that the code will run immediately in the next cycle. Then, because the delay for the print statement of the value 2 is set to 1000, the function will wait for 1 second before printing the value of 2.
